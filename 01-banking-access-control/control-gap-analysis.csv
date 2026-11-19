@@ -1,0 +1,6 @@
+
+Control ID,Related Risk,Control Name,Expected Control,Current State,Identified Gap,Control Effectiveness,Recommendation,Responsible Owner
+C001,R001,Least Privilege,Employees should only receive access required for their job responsibilities,Some employees have excessive access privileges,Access permissions are not adequately restricted,Ineffective,Implement role-based access control and enforce least privilege,IT Security
+C002,R002,Account Deactivation,Employee access should be revoked promptly upon termination,Former employees may retain active system accounts,Offboarding access removal is ineffective,Ineffective,Implement a formal employee offboarding and access revocation process,HR and IT
+C003,R003,Periodic Access Reviews,User access privileges should be reviewed periodically,Access reviews are not conducted regularly,No effective periodic access review process,Ineffective,Conduct quarterly user access reviews and document approvals,IT Security
+C004,R004,Access Approval,Access requests should receive documented authorization,Access approval documentation is insufficient,Incomplete evidence of access authorization,Needs Improvement,Implement documented access request and approval procedures,IT Management
