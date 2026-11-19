@@ -1,0 +1,8 @@
+Asset ID,Asset Name,Asset Owner,Asset Description,Classification,Business Importance
+A001,Customer Database,IT Manager,Stores customer personal and account information,Confidential,High
+A002,Core Banking System,IT Director,Processes customer accounts and financial transactions,Confidential,Critical
+A003,Employee User Accounts,HR and IT,Provides employees with access to banking applications,Internal,High
+A004,Access Management System,IT Security,Manages user authentication and access privileges,Confidential,Critical
+A005,Transaction Records,Finance Manager,Maintains records of customer financial transactions,Confidential,Critical
+A006,Employee Workstations,IT Support,Computers used by employees to access banking systems,Internal,High
+A007,Security Audit Logs,IT Security,Records system activity and access events,Confidential,High
