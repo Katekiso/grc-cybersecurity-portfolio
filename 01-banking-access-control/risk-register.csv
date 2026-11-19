@@ -1,0 +1,6 @@
+
+Risk ID,Asset ID,Risk Description,Threat,Vulnerability,Likelihood,Impact,Inherent Risk Score,Risk Rating,Recommended Treatment
+R001,A003,Employees have excessive access privileges,Malicious insider or compromised employee account,Excessive permissions beyond job responsibilities,4,5,20,Critical,Implement role-based access control and least privilege
+R002,A003,Former employees retain active system accounts,Unauthorized account use,Delayed account deactivation after termination,3,5,15,High,Implement immediate access revocation during employee offboarding
+R003,A004,Unauthorized access remains undetected,Insider threat or compromised account,Failure to conduct periodic access reviews,4,4,16,High,Conduct periodic user access reviews and document approvals
+R004,A001,Unauthorized access privileges are granted,Insider threat or compromised approval process,Insufficient documentation of access approvals,3,4,12,High,Implement documented access request and approval procedures 
