@@ -1,0 +1,6 @@
+
+Risk ID,Control ID,Identified Finding,NIST CSF 2.0 Function,NIST CSF Category,NIST CSF Subcategory,Recommended Security Improvement
+R001,C001,Employees have excessive access privileges,Protect,Identity Management Authentication and Access Control,PR.AA-05,Enforce least privilege and role-based access controls
+R002,C002,Former employees retain active system accounts,Protect,Identity Management Authentication and Access Control,PR.AA-01,Establish timely identity and credential revocation procedures
+R003,C003,Periodic access reviews are not conducted,Protect,Identity Management Authentication and Access Control,PR.AA-05,Conduct and document periodic access reviews
+R004,C004,Access approval documentation is insufficient,Protect,Identity Management Authentication and Access Control,PR.AA-01,Track and document access requests and approvals
