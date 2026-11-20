@@ -90,4 +90,4 @@ All projects in this repository are educational simulations developed for academ
 
 ## Contact
 
-Connect with me on [LinkedIn](YOUR-LINKEDIN-URL) for professional networking and cybersecurity discussions.
+Connect with me on [LinkedIn](https://www.linkedin.com/in/katekiso-ravu-28706a93/) for professional networking and cybersecurity discussions.
