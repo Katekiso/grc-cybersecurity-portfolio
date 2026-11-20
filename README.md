@@ -39,7 +39,6 @@ A simulated cybersecurity risk assessment examining access control weaknesses wi
 - Mapped relevant security outcomes to the NIST Cybersecurity Framework (CSF) 2.0.
 
 **Key focus areas:** Identity and Access Management, least privilege, access governance, operational risk, and control effectiveness.
-
 [View Project](./01-banking-access-control/)
 
 ### 02. Third-Party Risk Assessment
