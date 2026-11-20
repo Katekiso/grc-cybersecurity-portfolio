@@ -48,7 +48,7 @@ The assessment focuses on the following areas:
 | Periodic access reviews | Review of existing permissions to identify excessive or inappropriate access. |
 | Employee termination | Timely revocation of access when employment ends. |
 | Role changes | Adjustment of access privileges when employees change positions. |
-| Access monitoring | Identification and review of potentially unauthorized account activity. |
+| Access monitoring and logging | Identification and review of potentially unauthorized account activity. |
 
 ## 5. Critical Assets
 
@@ -59,6 +59,7 @@ The assessment considers the following categories of information assets:
 - Employee accounts and authentication credentials.
 - Financial transaction and account records.
 - Access control policies and approval records.
+- authentication mechanisms
 
 These assets are considered important because unauthorized access could affect customer confidentiality, financial integrity, and banking operations.
 
@@ -86,6 +87,8 @@ The assessment follows a structured, risk-based approach:
 5. **Framework Mapping:** Map relevant security practices to applicable NIST Cybersecurity Framework (CSF) 2.0 outcomes.
 6. **Risk Treatment:** Recommend practical remediation measures based on risk severity and business priorities.
 7. **Reporting:** Document findings, risk ratings, control gaps, and recommendations.
+
+Likelihood and impact ratings will be assigned using consistent assessment criteria to support repeatable risk prioritization and transparent remediation decisions.
 
 ## 8. Assessment Boundaries and Limitations
 
