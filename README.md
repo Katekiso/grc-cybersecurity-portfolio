@@ -24,7 +24,7 @@ This portfolio showcases practical cybersecurity projects and simulated labs foc
 
 | Project | Description | Status |
 |---|---|---|
-| Banking Access Control Risk Assessment | Evaluating access control risks and security gaps in a simulated banking environment. | In Progress |
+| Banking Access Control Risk Assessment | Evaluating access control risks and security gaps in a simulated banking environment. | Completed |
 | Third-Party Risk Assessment | Assessing cybersecurity risks associated with external service providers. | Planned |
 | NIST CSF 2.0 Gap Assessment | Evaluating an organization's cybersecurity practices against NIST CSF 2.0. | Planned |
 | Incident Response Plan | Developing a simulated ransomware incident response plan. | Planned |
