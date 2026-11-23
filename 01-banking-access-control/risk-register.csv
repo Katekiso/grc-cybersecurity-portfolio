@@ -1,6 +1,376 @@
+# Banking Access Control Risk Register
 
-Risk ID,Asset ID,Risk Description,Threat,Vulnerability,Likelihood,Impact,Inherent Risk Score,Risk Rating,Recommended Treatment
-R001,A003,Employees have excessive access privileges,Malicious insider or compromised employee account,Excessive permissions beyond job responsibilities,4,5,20,Critical,Implement role-based access control and least privilege
-R002,A003,Former employees retain active system accounts,Unauthorized account use,Delayed account deactivation after termination,3,5,15,High,Implement immediate access revocation during employee offboarding
-R003,A004,Unauthorized access remains undetected,Insider threat or compromised account,Failure to conduct periodic access reviews,4,4,16,High,Conduct periodic user access reviews and document approvals
-R004,A001,Unauthorized access privileges are granted,Insider threat or compromised approval process,Insufficient documentation of access approvals,3,4,12,High,Implement documented access request and approval procedures 
+## 1. Document Overview
+
+This risk register documents the cybersecurity risks identified during a simulated access control risk assessment of a fictional commercial banking organization.
+
+The assessment evaluates risks associated with employee access privileges, account lifecycle management, periodic access reviews, and access authorization processes.
+
+The register establishes a consistent approach to risk identification, inherent risk assessment, ownership, treatment planning, remediation tracking, and projected residual risk evaluation.
+
+**Assessment Type:** Simulated Cybersecurity Risk Assessment  
+**Business Environment:** Commercial Banking  
+**Risk Domain:** Identity and Access Management (IAM)  
+**Assessment Status:** Completed  
+**Risk Treatment Status:** Proposed – Not Implemented
+
+*Note: This is a simulated assessment. Risk scenarios, organizational weaknesses, ownership assignments, and treatment recommendations are illustrative and do not represent findings from an actual financial institution.*
+
+## 2. Risk Assessment Methodology
+
+Risks are evaluated using a qualitative 5 × 5 risk matrix.
+
+**Inherent Risk Score = Likelihood × Impact**
+
+### 2.1 Likelihood and Impact Scales
+
+| Score | Likelihood | Impact |
+|---|---|---|
+| 1 | Rare | Insignificant |
+| 2 | Unlikely | Minor |
+| 3 | Possible | Moderate |
+| 4 | Likely | Major |
+| 5 | Almost Certain | Severe |
+
+### 2.2 Risk Rating Classification
+
+| Risk Score | Rating |
+|---|---|
+| 1–4 | Low |
+| 5–9 | Moderate |
+| 10–16 | High |
+| 17–25 | Critical |
+
+Inherent risk represents the level of risk before considering the effectiveness of additional or mitigating controls.
+
+Projected residual risk represents the estimated level of risk following the successful implementation and effective operation of the proposed treatment measures.
+
+These residual ratings are estimates and have not been independently validated through control testing.
+
+## 3. Identified Cybersecurity Risks
+
+### R001 – Excessive Employee Access Privileges
+
+**Primary Asset:** A003 – Employee User Accounts  
+**Additional Affected Assets:** A001 – Customer Database; A002 – Core Banking System; A005 – Transaction Records
+
+**Risk Description**
+
+Excessive employee access privileges may allow unauthorized access to sensitive customer information and critical banking systems, potentially resulting in data breaches, fraudulent transactions, financial losses, and regulatory non-compliance.
+
+**Threat:** Malicious insider or compromised employee account.
+
+**Vulnerability:** Employee permissions exceed approved job responsibilities and are not adequately restricted through the principle of least privilege.
+
+**Business Impact:** Unauthorized disclosure or modification of customer information, fraudulent transactions, financial losses, reputational damage, and regulatory consequences.
+
+**Inherent Risk Assessment**
+
+| Assessment | Score |
+|---|---:|
+| Likelihood | 4 |
+| Impact | 5 |
+| Inherent Risk Score | 20 |
+| Risk Rating | Critical |
+
+**Risk Owner:** IT Security Manager.
+
+**Treatment Strategy:** Mitigate.
+
+**Recommended Treatment Actions**
+- Implement role-based access control (RBAC).
+- Enforce least-privilege access.
+- Review privileged accounts and permissions.
+- Remove unnecessary or excessive employee privileges.
+- Establish documented access approval and review procedures.
+
+**Action Owner:** IT Security and System Owners.
+
+**Target Completion:** Within 60 days of remediation approval.
+
+**Implementation Status:** Proposed – Not Implemented.
+
+**Projected Residual Risk**
+
+| Assessment | Score |
+|---|---:|
+| Residual Likelihood | 2 |
+| Residual Impact | 5 |
+| Projected Residual Score | 10 |
+| Projected Residual Rating | High |
+
+**Management Acceptance:** Pending management review.
+
+---
+
+### R002 – Former Employees Retaining Active System Access
+
+**Primary Asset:** A003 – Employee User Accounts  
+**Additional Affected Assets:** A001 – Customer Database; A002 – Core Banking System; A004 – Access Management System.
+
+**Risk Description**
+
+Former employees may retain active access to banking applications following termination, potentially enabling unauthorized access to confidential customer information and financial systems.
+
+**Threat:** Unauthorized use of former employee accounts.
+
+**Vulnerability:** Delayed or inconsistent account deactivation following employee termination.
+
+**Business Impact:** Unauthorized access, data theft, fraudulent activity, regulatory non-compliance, and reputational damage.
+
+**Inherent Risk Assessment**
+
+| Assessment | Score |
+|---|---:|
+| Likelihood | 3 |
+| Impact | 5 |
+| Inherent Risk Score | 15 |
+| Risk Rating | High |
+
+**Risk Owner:** IT Manager.
+
+**Treatment Strategy:** Mitigate.
+
+**Recommended Treatment Actions**
+- Establish formal employee offboarding procedures.
+- Integrate HR termination notifications with IT access revocation processes.
+- Define account deactivation responsibilities.
+- Maintain evidence of account deactivation.
+- Conduct periodic reviews of inactive and terminated employee accounts.
+
+**Action Owner:** Human Resources and IT Support.
+
+**Target Completion:** Within 30 days of remediation approval.
+
+**Implementation Status:** Proposed – Not Implemented.
+
+**Projected Residual Risk**
+
+| Assessment | Score |
+|---|---:|
+| Residual Likelihood | 1 |
+| Residual Impact | 5 |
+| Projected Residual Score | 5 |
+| Projected Residual Rating | Moderate |
+
+**Management Acceptance:** Pending management review.
+
+---
+
+### R003 – Inadequate Periodic User Access Reviews
+
+**Primary Asset:** A004 – Access Management System  
+**Additional Affected Assets:** A003 – Employee User Accounts; A007 – Security Audit Logs.
+
+**Risk Description**
+
+Failure to conduct effective periodic user access reviews may allow inappropriate or excessive employee privileges to remain undetected, increasing the risk of unauthorized access to sensitive banking systems.
+
+**Threat:** Insider threat or compromised employee account.
+
+**Vulnerability:** Absence of an effective periodic access review process and documented approval of continued access.
+
+**Business Impact:** Prolonged unauthorized access, exposure of customer information, increased opportunity for fraudulent transactions, and delayed incident detection.
+
+**Inherent Risk Assessment**
+
+| Assessment | Score |
+|---|---:|
+| Likelihood | 4 |
+| Impact | 4 |
+| Inherent Risk Score | 16 |
+| Risk Rating | High |
+
+**Risk Owner:** IT Security Manager.
+
+**Treatment Strategy:** Mitigate.
+
+**Recommended Treatment Actions**
+- Implement quarterly user access reviews.
+- Require system owners to certify employee access privileges.
+- Document review outcomes and exceptions.
+- Track and remediate inappropriate access.
+- Retain completed access review records for audit purposes.
+
+**Action Owner:** IT Security and Business System Owners.
+
+**Target Completion:** Within 60 days of remediation approval.
+
+**Implementation Status:** Proposed – Not Implemented.
+
+**Projected Residual Risk**
+
+| Assessment | Score |
+|---|---:|
+| Residual Likelihood | 2 |
+| Residual Impact | 4 |
+| Projected Residual Score | 8 |
+| Projected Residual Rating | Moderate |
+
+**Management Acceptance:** Pending management review.
+
+---
+
+### R004 – Insufficient Access Request and Approval Documentation
+
+**Primary Asset:** A004 – Access Management System  
+**Additional Affected Assets:** A001 – Customer Database; A002 – Core Banking System; A005 – Transaction Records.
+
+**Risk Description**
+
+Insufficient documentation of access requests and management approvals may result in unauthorized or inappropriate access privileges being granted to employees.
+
+**Threat:** Insider threat or compromised approval process.
+
+**Vulnerability:** Inadequate access request documentation and insufficient evidence of management authorization before access provisioning.
+
+**Business Impact:** Unauthorized access to confidential banking information, segregation of duties violations, audit findings, and regulatory compliance concerns.
+
+**Inherent Risk Assessment**
+
+| Assessment | Score |
+|---|---:|
+| Likelihood | 3 |
+| Impact | 4 |
+| Inherent Risk Score | 12 |
+| Risk Rating | High |
+
+**Risk Owner:** IT Manager.
+
+**Treatment Strategy:** Mitigate.
+
+**Recommended Treatment Actions**
+- Implement a formal access request and approval workflow.
+- Require documented business justification for access requests.
+- Obtain authorized management approval before provisioning.
+- Maintain access request and approval records.
+- Periodically review access provisioning procedures.
+
+**Action Owner:** IT Management and Business System Owners.
+
+**Target Completion:** Within 45 days of remediation approval.
+
+**Implementation Status:** Proposed – Not Implemented.
+
+**Projected Residual Risk**
+
+| Assessment | Score |
+|---|---:|
+| Residual Likelihood | 2 |
+| Residual Impact | 4 |
+| Projected Residual Score | 8 |
+| Projected Residual Rating | Moderate |
+
+**Management Acceptance:** Pending management review.
+
+---
+
+## 4. Consolidated Risk Summary
+
+| Risk ID | Identified Risk | Inherent Score | Inherent Rating | Projected Residual Score | Projected Residual Rating |
+|---|---|---:|---|---:|---|
+| R001 | Excessive employee privileges | 20 | Critical | 10 | High |
+| R002 | Former employees retaining access | 15 | High | 5 | Moderate |
+| R003 | Inadequate periodic access reviews | 16 | High | 8 | Moderate |
+| R004 | Insufficient access approval documentation | 12 | High | 8 | Moderate |
+
+### 4.1 Risk Distribution
+
+The assessment identifies four access control risks:
+
+- One Critical risk.
+- Three High risks.
+- No initially identified Moderate or Low risks.
+
+The results indicate that employee access governance, account lifecycle management, periodic access reviews, and documented authorization processes require management attention.
+
+### 4.2 Risk Prioritization
+
+R001 represents the highest inherent risk, with a score of 20 (Critical). Excessive employee privileges could expose sensitive customer information and critical banking operations to unauthorized activity.
+
+R003 and R002 also require priority attention because inadequate access reviews and delayed account deactivation may allow inappropriate access to remain undetected.
+
+R004 highlights the importance of maintaining documented authorization records to demonstrate accountability and support audit readiness.
+
+## 5. Risk Treatment and Remediation Tracking
+
+All identified risks have been assigned a proposed mitigation strategy.
+
+| Risk ID | Treatment | Action Owner | Target Completion | Status |
+|---|---|---|---|---|
+| R001 | Mitigate | IT Security and System Owners | 60 days | Proposed – Not Implemented |
+| R002 | Mitigate | HR and IT Support | 30 days | Proposed – Not Implemented |
+| R003 | Mitigate | IT Security and System Owners | 60 days | Proposed – Not Implemented |
+| R004 | Mitigate | IT Management and System Owners | 45 days | Proposed – Not Implemented |
+
+These timeframes are proposed planning targets and require management approval.
+
+Risk owners remain accountable for ensuring that treatment decisions are implemented and that residual risk is evaluated.
+
+## 6. Residual Risk Evaluation
+
+Projected residual risk estimates reflect the expected risk level following successful implementation of the recommended controls.
+
+However, the implementation and effectiveness of these controls have not been independently tested.
+
+Residual risk ratings should therefore be treated as preliminary estimates rather than verified outcomes.
+
+Following remediation, management should ensure that:
+
+1. Recommended controls have been implemented.
+2. Supporting documentation and evidence have been retained.
+3. Control design and operating effectiveness have been evaluated.
+4. Remaining risks have been reassessed.
+5. Residual risk has been formally reviewed and accepted by the appropriate authority.
+
+Risk acceptance should be documented and supported by an appropriate business justification.
+
+## 7. Governance and Monitoring Recommendations
+
+To maintain effective access governance, the organization should establish the following monitoring activities:
+
+| Monitoring Activity | Recommended Frequency | Responsible Function |
+|---|---|---|
+| Employee access reviews | Quarterly | IT Security and System Owners |
+| Privileged account reviews | Quarterly | IT Security |
+| Terminated employee account checks | Upon termination | HR and IT |
+| Access approval documentation reviews | Ongoing | IT Management |
+| Risk register updates | Quarterly and following significant changes | Risk Management |
+| Remediation progress reporting | Monthly | Risk Owners |
+
+Monitoring frequency should be adjusted according to business requirements, system criticality, regulatory obligations, and the organization's risk appetite.
+
+## 8. Conclusion
+
+The assessment identified four significant cybersecurity risks associated with employee access governance in a simulated commercial banking environment.
+
+The findings demonstrate the importance of enforcing least-privilege access, maintaining effective employee account lifecycle controls, conducting periodic access reviews, and ensuring that access privileges are supported by documented authorization.
+
+The proposed remediation measures provide a structured approach to reducing the identified risks and strengthening the organization's identity and access management practices.
+
+Successful risk treatment will require clear ownership, management oversight, documented implementation evidence, and ongoing control monitoring.
+
+**Assessment Conclusion:** Four risks identified and assessed; remediation measures proposed; projected residual risks documented; implementation and control effectiveness remain unverified.
+
+## 9. Framework Alignment
+
+The identified risks and recommended treatments support relevant outcomes within the NIST Cybersecurity Framework (CSF) 2.0, particularly:
+
+| NIST CSF 2.0 Category | Relevant Outcome |
+|---|---|
+| PR.AA – Identity Management, Authentication, and Access Control | Management of identities, authentication and access permissions. |
+| GV.RR – Roles, Responsibilities, and Authorities | Assignment of cybersecurity risk management responsibilities. |
+| ID.RA – Risk Assessment | Identification, analysis and prioritization of cybersecurity risks. |
+| GV.RM – Risk Management Strategy | Establishment of risk treatment and risk appetite considerations. |
+
+Framework mappings indicate alignment with relevant cybersecurity outcomes; they do not independently demonstrate compliance or implementation.
+
+## 10. Disclaimer
+
+This risk register is an academic and professional portfolio exercise based on a fictional commercial banking organization.
+
+All identified risks, organizational roles, risk ratings, treatment strategies, remediation timeframes, and projected residual risk scores are illustrative.
+
+No actual banking systems, customer records, organizational controls, or confidential financial information were accessed or assessed.
+
+The document demonstrates a simulated application of cybersecurity risk management principles and does not constitute an independent audit, regulatory compliance certification, or formal security assessment of a real financial institution.
